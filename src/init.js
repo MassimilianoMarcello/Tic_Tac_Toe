@@ -1,8 +1,6 @@
-// import your listeners(events)
 
-// import sumListener from './events/sumListener.js';
 
-// sumListener();
+
 
 // const gameBoard = document.querySelector('#gameboard');
 // const infoDisplay = document.querySelector('#info');
@@ -89,12 +87,12 @@
 // // Inizializza il gioco
 // createBoard();
 
-// // import { createBoard, restartGame } from './components/gameBoard.js';
-// // import { setupEventListeners } from './events/eventListeners.js';
+// import { createBoard, restartGame } from './components/gameBoard.js';
+// import { setupEventListeners } from './events/eventListeners.js';
 
-// // createBoard();
-// // setupEventListeners();
-// // restartGame()
+// createBoard();
+// setupEventListeners();
+// restartGame()
 
 
 
