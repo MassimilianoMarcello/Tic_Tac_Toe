@@ -2,8 +2,8 @@
 import { addGo } from '../handlers/gameHandlers.js';
 import { infoDisplay, gameBoard } from '../utils/constants.js';
 import state from '../utils/state.js';
-
-export const startCells = ['', '', '', '', '', '', '', '', ''];
+import {startCells} from '../data.js'
+// const startCells = ['', '', '', '', '', '', '', '', ''];
 
 export function createBoard() {
     gameBoard.innerHTML = '';

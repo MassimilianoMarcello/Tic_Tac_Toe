@@ -1,18 +1,12 @@
 import { infoDisplay } from '../utils/constants.js';
 import state from '../utils/state.js';
+import {winningCombos} from '../data.js';
+
+
 
 export function checkScore() {
     const allSquares = Array.from(document.querySelectorAll('.square'));
-    const winningCombos = [
-        [0, 1, 2], 
-        [3, 4, 5],
-        [6, 7, 8],
-        [0, 3, 6],
-        [1, 4, 7],
-        [2, 5, 8],
-        [0, 4, 8],
-        [2, 4, 6],
-    ];
+
 
     const circleWins = winningCombos.some(array => 
         array.every(cell => 
